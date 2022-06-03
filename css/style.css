@@ -1,4 +1,15 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    height: 100%;
+}
+
 body {
+    height: 100%;
     font-family: 'Outfit', sans-serif;
     font-size: 15px;
     /* background-color: #1f3251;  dark blue */
@@ -14,28 +25,47 @@ img {
     
 }
 
+.wrapper {
+    height: 100%;
+    width: 100%;
+    display: table;
+}
+
+.main {
+    display: table-cell;
+    height: 100%;
+    vertical-align: middle;
+}
+
 .qr-component  {
     border-radius: 15px;
     background-color: white;
-    margin: 1em;
-    margin-top: 25%;
+    margin: 0 auto;
     padding: 1em;
     text-align: center;
+    width: 80%;
+    max-width: 20em;
 }
+
 
 img.qr {
     border-radius: 10px;
     margin-left: auto;
     margin-right: auto;
     /* padding: 1em; */
-    object-fit: contain;
+    object-fit: scale-down;
 }
 
 .component-heading {
-    font-size: 1.6rem;
+    font-size: 1.4rem;
 }
 
 .component-content {
     margin: 1.5em;
     color: #7b879d;
+}
+
+.component-text {
+    margin-top: 1em;
+    padding: .2em;
 }
