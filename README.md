@@ -15,6 +15,8 @@ With the basic styling working as expected and the padding/margins working mostl
 
 Width was still scaling up with the page but I was able to eventually solve that as well after doing more research on responsiveness--which also led me to a realization. So many pages I'd viewed were wrapping everything in divs, and I thought I understood why but came to understand that vertical centering within the body of a page required a bit of div trickery. Giving the wrapper div a display: table; property and a nested div the table-cell allowed for easy centering using table styles. Finally, setting a max-width (of course!) prevented the div from expanding as the viewport changed, while the margins did their work to keep things centered. And while I had initially expected @media queries to be essential to keeping the design responsive, the percentages and em units allowed for things to scale well without it.
 
+One other thing I'd like to work on next time is getting more used to commits during the coding portion. I got sucked into the problem and completly forgot to update the git while working.
+
 I obviously learned a lot during this challenge! Most valuable and unexpected was the page wrapping realization--although I'm sure there's more to unpack on that topic as I move forward. 
 
 
