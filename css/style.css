@@ -1,0 +1,41 @@
+body {
+    font-family: 'Outfit', sans-serif;
+    font-size: 15px;
+    /* background-color: #1f3251;  dark blue */
+    background-color: #d6e2f0;  light gray
+    /* background-color: #7b879d;   grayish blue */
+
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    
+}
+
+.qr-component  {
+    border-radius: 15px;
+    background-color: white;
+    margin: 1em;
+    margin-top: 25%;
+    padding: 1em;
+    text-align: center;
+}
+
+img.qr {
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    /* padding: 1em; */
+    object-fit: contain;
+}
+
+.component-heading {
+    font-size: 1.6rem;
+}
+
+.component-content {
+    margin: 1.5em;
+    color: #7b879d;
+}
